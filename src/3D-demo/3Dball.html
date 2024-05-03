@@ -139,7 +139,7 @@
 
   document.getElementById("controlBtn").onclick = function() {
     this.innerText === "Start" ? this.innerText = "Stop" : this.innerText = "Start";
-    this.innerText === "Start" ? animation.stop() : animation.start();
+    this.innerText === "Stop" ? animation.stop() : animation.start();
     ;
   }
 </script>
