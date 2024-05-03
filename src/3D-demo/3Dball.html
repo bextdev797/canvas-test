@@ -14,8 +14,8 @@
 <body style="background-color:#000">
 <div>
   <canvas id='cas' width="1000" height="500">浏览器不支持canvas，请更新浏览器后再浏览</canvas>
-  <div style="width:50px;margin:10px auto">
-    <button id="controlBtn">停止</button>
+  <div style="width:50px;margin:10px Start auto">
+    <button id="controlBtn"></button>
   </div>
 </div>
 <script>
@@ -138,8 +138,8 @@
   animation.start();
 
   document.getElementById("controlBtn").onclick = function() {
-    this.innerText === "开始" ? this.innerText = "停止" : this.innerText = "开始";
-    this.innerText === "开始" ? animation.stop() : animation.start();
+    this.innerText === "Start" ? this.innerText = "Stop" : this.innerText = "Start";
+    this.innerText === "Start" ? animation.stop() : animation.start();
     ;
   }
 </script>
